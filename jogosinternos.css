@@ -5,6 +5,8 @@ body {
   color: #02300a;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 .sidebar {
@@ -49,13 +51,22 @@ body {
 }
 
 main {
+  flex: 1;
   padding: 40px;
 }
 
 
-  footer {
-    line-height: 60%;
-    padding: 30px;
-    margin: 0;
-    background-color: #a4ddb1;
-  }
+footer {
+  line-height: 60%;
+  padding: 30px;
+  margin: 0;
+  background-color: #a4ddb1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
+
