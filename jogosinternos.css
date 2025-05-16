@@ -1,76 +1,61 @@
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: aliceblue;
-    color: #02300a;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .sidebar {
-    width: 100%;
-    height: 125px;
-    background-color: #f8f9fa;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    box-shadow: 10px 0 25px #2a7c3c;
-  }
-  
-  #logo-jifal {
-    height: 140px;
-  }
-  
-  .menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .menu-item {
-    padding: 10px 20px;
-    border-radius: 8px;
-    background-color: transparent;
-    color: #021a07;
-    text-decoration: none;
-    transition: 0.3s;
-    font-weight: 600;
-  }
-  
-  .menu-item:hover {
-    background-color: #2a7c3c;
-    color: white;
-  }
-  
-  main {
-    padding: 40px;
-  }
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: aliceblue;
+  color: #02300a;
+  display: flex;
+  flex-direction: column;
+}
 
-  .container{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-  }
+.sidebar {
+  width: 100%;
+  height: 125px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 10px 0 25px #2a7c3c;
+}
 
-  .content{
-    flex-grow: 1;
-  }
+#logo-jifal {
+  height: 140px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu-item {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #021a07;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.menu-item:hover {
+  background-color: #2a7c3c;
+  color: white;
+}
+
+main {
+  padding: 40px;
+}
+
 
   footer {
-    padding: 15px;
+    line-height: 60%;
+    padding: 30px;
     margin: 0;
     background-color: #a4ddb1;
-  }
-
-  footer p {
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    background-color: red;
   }
