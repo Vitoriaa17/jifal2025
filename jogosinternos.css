@@ -366,15 +366,52 @@ body {
   flex-direction: row; 
   justify-content: space-between; 
   width: 100%; 
-  gap: 20px; 
+  gap: 100px; 
 }
 
-.card-historico {
+.card-historico1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.card-historico2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 30px;
   margin-top: 20px;
+  flex-direction: row;
+}
+
+.card-historico3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.card-historico4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.card-historico5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  flex-direction: row;
 }
 
 .volei {
@@ -383,7 +420,7 @@ body {
   border-radius: 20px;
   padding: 20px;
   width: 200px;
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -393,5 +430,12 @@ body {
 .pontuacao {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 120px; 
+}
+
+.container-h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
