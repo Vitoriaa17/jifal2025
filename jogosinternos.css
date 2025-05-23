@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -57,7 +57,7 @@ body {
   
   footer {
     line-height: 60%;
-    padding: 30px;
+    padding: 50px;
     margin: 0;
     background-color: #a4ddb1;
   }
@@ -376,17 +376,16 @@ body {
 }
 
 .modalidades-agrupadas {
-  background-color: rgba(255, 255, 255, 0.13);
+  background-color: rgba(255, 255, 255, 0.7);
   border: 1px solid #ccc;
   border-radius: 20px;
   padding: 20px;
-  width: 200px;
-  height: 250px;
+  width: 400px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  backdrop-filter: blur(20px);
 }
 
 .pontuacao {
@@ -402,4 +401,76 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-bottom: 3px solid #539462;
+}
+
+/*Parte de contato*/
+
+.contato-container {
+  background-color: #a4ddb1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contato-banner {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formulario {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.formulario button {
+  background-color: #8be0b1;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.formulario button:hover {
+  background-color: #6dc99e;
+}
+
+.informacoes-contato {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1em;
 }
