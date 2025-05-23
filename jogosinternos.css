@@ -362,60 +362,21 @@ body {
 }
 
 .historico-container {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-between; 
-  width: 100%; 
-  gap: 100px; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
 }
 
-.card-historico1 {
+.card-historico {
   display: flex;
   flex-wrap: wrap;
-  justify-content:flex-start;
-  gap: 30px;
-  margin-top: 20px;
-  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
 }
 
-.card-historico2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 30px;
-  margin-top: 20px;
-  flex-direction: row;
-}
-
-.card-historico3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 30px;
-  margin-top: 20px;
-  flex-direction: row;
-}
-
-.card-historico4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 30px;
-  margin-top: 20px;
-  flex-direction: row;
-}
-
-.card-historico5 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 30px;
-  margin-top: 20px;
-  flex-direction: row;
-}
-
-.volei {
-  background-color: white;
+.modalidades-agrupadas {
+  background-color: rgba(255, 255, 255, 0.13);
   border: 1px solid #ccc;
   border-radius: 20px;
   padding: 20px;
@@ -425,15 +386,18 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  backdrop-filter: blur(20px);
 }
 
 .pontuacao {
   display: flex;
   align-items: center;
-  gap: 120px; 
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px 0;
 }
 
-.container-h3{
+.container-h3 {
   display: flex;
   justify-content: center;
   align-items: center;
